@@ -1,0 +1,6 @@
+framework module Pods_WaxnationTests {
+  umbrella header "Pods-WaxnationTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

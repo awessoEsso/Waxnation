@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A41FBFD5AA7ED3B7B47D7D1 /* Pods_WaxnationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F969C97AB3AF0197F29F09B8 /* Pods_WaxnationUITests.framework */; };
+		4A865B12CB5B8EE3D8D68B93 /* Pods_Waxnation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF0CBF2A43D473565FC3EE7 /* Pods_Waxnation.framework */; };
+		544DAEE8B1086FC52FF7E2CF /* Pods_WaxnationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C47C5EE50D10447EF70337 /* Pods_WaxnationTests.framework */; };
 		6702DF261FD3095C008537DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6702DF251FD3095C008537DD /* AppDelegate.swift */; };
-		6702DF281FD3095C008537DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6702DF271FD3095C008537DD /* ViewController.swift */; };
+		6702DF281FD3095C008537DD /* ItemsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6702DF271FD3095C008537DD /* ItemsController.swift */; };
 		6702DF2B1FD3095C008537DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6702DF291FD3095C008537DD /* Main.storyboard */; };
 		6702DF2E1FD3095C008537DD /* Waxnation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6702DF2C1FD3095C008537DD /* Waxnation.xcdatamodeld */; };
 		6702DF301FD3095C008537DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6702DF2F1FD3095C008537DD /* Assets.xcassets */; };
 		6702DF331FD3095C008537DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6702DF311FD3095C008537DD /* LaunchScreen.storyboard */; };
 		6702DF3E1FD3095C008537DD /* WaxnationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6702DF3D1FD3095C008537DD /* WaxnationTests.swift */; };
 		6702DF491FD3095C008537DD /* WaxnationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6702DF481FD3095C008537DD /* WaxnationUITests.swift */; };
+		6702DF591FD37344008537DD /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6702DF581FD37344008537DD /* DetailsViewController.swift */; };
+		6702DF5D1FD3DF49008537DD /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6702DF5C1FD3DF49008537DD /* Item.swift */; };
+		6702DF651FD3E7DC008537DD /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6702DF641FD3E7DC008537DD /* FirebaseManager.swift */; };
+		672F40FF1FD3EAF300014A34 /* FirebaseManager+Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672F40FE1FD3EAF300014A34 /* FirebaseManager+Item.swift */; };
+		672F41021FD3FD3300014A34 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672F41011FD3FD3300014A34 /* ItemCollectionViewCell.swift */; };
+		674CFD891FDD61E700C21987 /* StoryboadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674CFD881FDD61E700C21987 /* StoryboadHelper.swift */; };
+		679FF2771FDBF63C008E58AB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 672F41051FD415BB00014A34 /* GoogleService-Info.plist */; };
+		679FF27A1FDC116A008E58AB /* DynamicLinkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679FF2791FDC116A008E58AB /* DynamicLinkManager.swift */; };
+		679FF27C1FDD4AE2008E58AB /* DetailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679FF27B1FDD4AE2008E58AB /* DetailsCollectionViewCell.swift */; };
+		67F0C948200B25AF003A488D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F0C947200B25AF003A488D /* HomeViewController.swift */; };
+		67F0C94A200B261D003A488D /* ShopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F0C949200B261D003A488D /* ShopCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +49,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BB0CF0FFB5269DAED8F4B72 /* Pods-Waxnation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Waxnation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Waxnation/Pods-Waxnation.debug.xcconfig"; sourceTree = "<group>"; };
 		6702DF221FD3095C008537DD /* Waxnation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Waxnation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6702DF251FD3095C008537DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6702DF271FD3095C008537DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6702DF271FD3095C008537DD /* ItemsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsController.swift; sourceTree = "<group>"; };
 		6702DF2A1FD3095C008537DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6702DF2D1FD3095C008537DD /* Waxnation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Waxnation.xcdatamodel; sourceTree = "<group>"; };
 		6702DF2F1FD3095C008537DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +64,27 @@
 		6702DF441FD3095C008537DD /* WaxnationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaxnationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6702DF481FD3095C008537DD /* WaxnationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaxnationUITests.swift; sourceTree = "<group>"; };
 		6702DF4A1FD3095C008537DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6702DF561FD35E07008537DD /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6702DF581FD37344008537DD /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		6702DF5C1FD3DF49008537DD /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		6702DF641FD3E7DC008537DD /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		672F40FE1FD3EAF300014A34 /* FirebaseManager+Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FirebaseManager+Item.swift"; sourceTree = "<group>"; };
+		672F41011FD3FD3300014A34 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		672F41031FD414CB00014A34 /* Waxnation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Waxnation.entitlements; sourceTree = "<group>"; };
+		672F41051FD415BB00014A34 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		674CFD881FDD61E700C21987 /* StoryboadHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StoryboadHelper.swift; path = Utilities/StoryboadHelper.swift; sourceTree = "<group>"; };
+		679FF2791FDC116A008E58AB /* DynamicLinkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicLinkManager.swift; sourceTree = "<group>"; };
+		679FF27B1FDD4AE2008E58AB /* DetailsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCollectionViewCell.swift; sourceTree = "<group>"; };
+		67F0C947200B25AF003A488D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		67F0C949200B261D003A488D /* ShopCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCollectionViewCell.swift; sourceTree = "<group>"; };
+		91D3CEE6BB33C1D9D14EF535 /* Pods-WaxnationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaxnationUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WaxnationUITests/Pods-WaxnationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9BF0CBF2A43D473565FC3EE7 /* Pods_Waxnation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Waxnation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DCA0E85D268256F6C6240BA /* Pods-WaxnationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaxnationUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WaxnationUITests/Pods-WaxnationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8C47C5EE50D10447EF70337 /* Pods_WaxnationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaxnationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2DE8D87810C5E21CF2D3585 /* Pods-Waxnation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Waxnation.release.xcconfig"; path = "Pods/Target Support Files/Pods-Waxnation/Pods-Waxnation.release.xcconfig"; sourceTree = "<group>"; };
+		BA9912B1ECF5013EBE917E9F /* Pods-WaxnationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaxnationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WaxnationTests/Pods-WaxnationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4128D9EDB74BDB2A9BF8FB9 /* Pods-WaxnationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaxnationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WaxnationTests/Pods-WaxnationTests.release.xcconfig"; sourceTree = "<group>"; };
+		F969C97AB3AF0197F29F09B8 /* Pods_WaxnationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaxnationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A865B12CB5B8EE3D8D68B93 /* Pods_Waxnation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				544DAEE8B1086FC52FF7E2CF /* Pods_WaxnationTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A41FBFD5AA7ED3B7B47D7D1 /* Pods_WaxnationUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +118,13 @@
 		6702DF191FD3095C008537DD = {
 			isa = PBXGroup;
 			children = (
+				6702DF561FD35E07008537DD /* Podfile */,
 				6702DF241FD3095C008537DD /* Waxnation */,
 				6702DF3C1FD3095C008537DD /* WaxnationTests */,
 				6702DF471FD3095C008537DD /* WaxnationUITests */,
 				6702DF231FD3095C008537DD /* Products */,
+				B50670ABDACB0E4598D908B3 /* Pods */,
+				ACBA3EF124C83D8FBB700D12 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +141,13 @@
 		6702DF241FD3095C008537DD /* Waxnation */ = {
 			isa = PBXGroup;
 			children = (
-				6702DF251FD3095C008537DD /* AppDelegate.swift */,
-				6702DF271FD3095C008537DD /* ViewController.swift */,
-				6702DF291FD3095C008537DD /* Main.storyboard */,
-				6702DF2F1FD3095C008537DD /* Assets.xcassets */,
-				6702DF311FD3095C008537DD /* LaunchScreen.storyboard */,
-				6702DF341FD3095C008537DD /* Info.plist */,
-				6702DF2C1FD3095C008537DD /* Waxnation.xcdatamodeld */,
+				672F41031FD414CB00014A34 /* Waxnation.entitlements */,
+				674CFD8A1FDD642000C21987 /* AppDelegate */,
+				6702DF601FD3E597008537DD /* Helpers */,
+				6702DF5A1FD3DF13008537DD /* Controllers */,
+				6702DF5B1FD3DF2B008537DD /* Model */,
+				6702DF5E1FD3E557008537DD /* Views */,
+				6702DF5F1FD3E56D008537DD /* Ressources files */,
 			);
 			path = Waxnation;
 			sourceTree = "<group>";
@@ -128,6 +170,113 @@
 			path = WaxnationUITests;
 			sourceTree = "<group>";
 		};
+		6702DF5A1FD3DF13008537DD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6702DF271FD3095C008537DD /* ItemsController.swift */,
+				6702DF581FD37344008537DD /* DetailsViewController.swift */,
+				67F0C947200B25AF003A488D /* HomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6702DF5B1FD3DF2B008537DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6702DF5C1FD3DF49008537DD /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6702DF5E1FD3E557008537DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				672F41001FD3FCDD00014A34 /* Cells */,
+				6702DF291FD3095C008537DD /* Main.storyboard */,
+				6702DF311FD3095C008537DD /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6702DF5F1FD3E56D008537DD /* Ressources files */ = {
+			isa = PBXGroup;
+			children = (
+				6702DF2F1FD3095C008537DD /* Assets.xcassets */,
+				6702DF341FD3095C008537DD /* Info.plist */,
+				672F41051FD415BB00014A34 /* GoogleService-Info.plist */,
+				6702DF2C1FD3095C008537DD /* Waxnation.xcdatamodeld */,
+			);
+			path = "Ressources files";
+			sourceTree = "<group>";
+		};
+		6702DF601FD3E597008537DD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				679FF2781FDC1157008E58AB /* DynamicLink */,
+				6702DF611FD3E59E008537DD /* FirebaseManager */,
+				674CFD881FDD61E700C21987 /* StoryboadHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6702DF611FD3E59E008537DD /* FirebaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				6702DF641FD3E7DC008537DD /* FirebaseManager.swift */,
+				672F40FE1FD3EAF300014A34 /* FirebaseManager+Item.swift */,
+			);
+			path = FirebaseManager;
+			sourceTree = "<group>";
+		};
+		672F41001FD3FCDD00014A34 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				672F41011FD3FD3300014A34 /* ItemCollectionViewCell.swift */,
+				679FF27B1FDD4AE2008E58AB /* DetailsCollectionViewCell.swift */,
+				67F0C949200B261D003A488D /* ShopCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		674CFD8A1FDD642000C21987 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6702DF251FD3095C008537DD /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		679FF2781FDC1157008E58AB /* DynamicLink */ = {
+			isa = PBXGroup;
+			children = (
+				679FF2791FDC116A008E58AB /* DynamicLinkManager.swift */,
+			);
+			path = DynamicLink;
+			sourceTree = "<group>";
+		};
+		ACBA3EF124C83D8FBB700D12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BF0CBF2A43D473565FC3EE7 /* Pods_Waxnation.framework */,
+				A8C47C5EE50D10447EF70337 /* Pods_WaxnationTests.framework */,
+				F969C97AB3AF0197F29F09B8 /* Pods_WaxnationUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B50670ABDACB0E4598D908B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BB0CF0FFB5269DAED8F4B72 /* Pods-Waxnation.debug.xcconfig */,
+				B2DE8D87810C5E21CF2D3585 /* Pods-Waxnation.release.xcconfig */,
+				BA9912B1ECF5013EBE917E9F /* Pods-WaxnationTests.debug.xcconfig */,
+				C4128D9EDB74BDB2A9BF8FB9 /* Pods-WaxnationTests.release.xcconfig */,
+				9DCA0E85D268256F6C6240BA /* Pods-WaxnationUITests.debug.xcconfig */,
+				91D3CEE6BB33C1D9D14EF535 /* Pods-WaxnationUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +284,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6702DF4D1FD3095C008537DD /* Build configuration list for PBXNativeTarget "Waxnation" */;
 			buildPhases = (
+				650198F895FAE49E8B8F6614 /* [CP] Check Pods Manifest.lock */,
 				6702DF1E1FD3095C008537DD /* Sources */,
 				6702DF1F1FD3095C008537DD /* Frameworks */,
 				6702DF201FD3095C008537DD /* Resources */,
+				DAC7DF13448CB3DCF71E2B02 /* [CP] Embed Pods Frameworks */,
+				D591C227B77AE3BCFCCA2338 /* [CP] Copy Pods Resources */,
+				6702DF571FD35EC1008537DD /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -152,9 +305,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6702DF501FD3095C008537DD /* Build configuration list for PBXNativeTarget "WaxnationTests" */;
 			buildPhases = (
+				751F2C1C2E3B42DF6250FFBA /* [CP] Check Pods Manifest.lock */,
 				6702DF351FD3095C008537DD /* Sources */,
 				6702DF361FD3095C008537DD /* Frameworks */,
 				6702DF371FD3095C008537DD /* Resources */,
+				71E8B3180582B0A22B21909F /* [CP] Embed Pods Frameworks */,
+				875EB1F36A7A9C0BA1C178D5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +326,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6702DF531FD3095C008537DD /* Build configuration list for PBXNativeTarget "WaxnationUITests" */;
 			buildPhases = (
+				BF8DBB07509B3254BC6F90CC /* [CP] Check Pods Manifest.lock */,
 				6702DF401FD3095C008537DD /* Sources */,
 				6702DF411FD3095C008537DD /* Frameworks */,
 				6702DF421FD3095C008537DD /* Resources */,
+				517DDD2A8BD020E577D4D176 /* [CP] Embed Pods Frameworks */,
+				349C6E2A25C2E06231B3F1CA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,6 +356,11 @@
 					6702DF211FD3095C008537DD = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
 					};
 					6702DF381FD3095C008537DD = {
 						CreatedOnToolsVersion = 9.0;
@@ -236,6 +400,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6702DF331FD3095C008537DD /* LaunchScreen.storyboard in Resources */,
+				679FF2771FDBF63C008E58AB /* GoogleService-Info.plist in Resources */,
 				6702DF301FD3095C008537DD /* Assets.xcassets in Resources */,
 				6702DF2B1FD3095C008537DD /* Main.storyboard in Resources */,
 			);
@@ -257,14 +422,198 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		349C6E2A25C2E06231B3F1CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaxnationUITests/Pods-WaxnationUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		517DDD2A8BD020E577D4D176 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaxnationUITests/Pods-WaxnationUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		650198F895FAE49E8B8F6614 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Waxnation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6702DF571FD35EC1008537DD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+		71E8B3180582B0A22B21909F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WaxnationTests/Pods-WaxnationTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaxnationTests/Pods-WaxnationTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		751F2C1C2E3B42DF6250FFBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WaxnationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		875EB1F36A7A9C0BA1C178D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaxnationTests/Pods-WaxnationTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF8DBB07509B3254BC6F90CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WaxnationUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D591C227B77AE3BCFCCA2338 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Waxnation/Pods-Waxnation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAC7DF13448CB3DCF71E2B02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Waxnation/Pods-Waxnation-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Nuke/Nuke.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nuke.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Waxnation/Pods-Waxnation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6702DF1E1FD3095C008537DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6702DF281FD3095C008537DD /* ViewController.swift in Sources */,
+				6702DF651FD3E7DC008537DD /* FirebaseManager.swift in Sources */,
+				6702DF5D1FD3DF49008537DD /* Item.swift in Sources */,
+				6702DF281FD3095C008537DD /* ItemsController.swift in Sources */,
+				679FF27A1FDC116A008E58AB /* DynamicLinkManager.swift in Sources */,
+				672F40FF1FD3EAF300014A34 /* FirebaseManager+Item.swift in Sources */,
 				6702DF2E1FD3095C008537DD /* Waxnation.xcdatamodeld in Sources */,
+				674CFD891FDD61E700C21987 /* StoryboadHelper.swift in Sources */,
+				672F41021FD3FD3300014A34 /* ItemCollectionViewCell.swift in Sources */,
+				679FF27C1FDD4AE2008E58AB /* DetailsCollectionViewCell.swift in Sources */,
 				6702DF261FD3095C008537DD /* AppDelegate.swift in Sources */,
+				67F0C94A200B261D003A488D /* ShopCollectionViewCell.swift in Sources */,
+				6702DF591FD37344008537DD /* DetailsViewController.swift in Sources */,
+				67F0C948200B25AF003A488D /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,13 +777,15 @@
 		};
 		6702DF4E1FD3095C008537DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BB0CF0FFB5269DAED8F4B72 /* Pods-Waxnation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Waxnation/Waxnation.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H93BL22J93;
-				INFOPLIST_FILE = Waxnation/Info.plist;
+				DEVELOPMENT_TEAM = 9T5D737237;
+				INFOPLIST_FILE = "$(SRCROOT)/Waxnation/Ressources files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zorobabel.Waxnation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waxnation.waxnation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -443,13 +794,15 @@
 		};
 		6702DF4F1FD3095C008537DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2DE8D87810C5E21CF2D3585 /* Pods-Waxnation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Waxnation/Waxnation.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H93BL22J93;
-				INFOPLIST_FILE = Waxnation/Info.plist;
+				DEVELOPMENT_TEAM = 9T5D737237;
+				INFOPLIST_FILE = "$(SRCROOT)/Waxnation/Ressources files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zorobabel.Waxnation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waxnation.waxnation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -458,6 +811,7 @@
 		};
 		6702DF511FD3095C008537DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA9912B1ECF5013EBE917E9F /* Pods-WaxnationTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +829,7 @@
 		};
 		6702DF521FD3095C008537DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4128D9EDB74BDB2A9BF8FB9 /* Pods-WaxnationTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +847,7 @@
 		};
 		6702DF541FD3095C008537DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DCA0E85D268256F6C6240BA /* Pods-WaxnationUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +864,7 @@
 		};
 		6702DF551FD3095C008537DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91D3CEE6BB33C1D9D14EF535 /* Pods-WaxnationUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
