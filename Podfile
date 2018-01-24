@@ -8,9 +8,11 @@ target 'Waxnation' do
   # Pods for Waxnation
 
   pod 'SwiftLint'
+  pod 'Firebase/Auth'
   pod 'Firebase/Core'
   pod 'Firebase/Database'
   pod 'Firebase/DynamicLinks'
+  pod 'Firebase/Storage'
   pod 'Nuke'
 
   target 'WaxnationTests' do

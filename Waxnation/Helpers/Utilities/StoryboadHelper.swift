@@ -25,6 +25,7 @@ extension UIStoryboard {
     /// The uniform place where we state all the storyboard we have in our application
     enum Storyboard: String {
         case main
+        case authentication
         
         var filename: String {
             return rawValue.capitalized
@@ -56,6 +57,18 @@ extension UIStoryboard {
         let mainStoryboard = UIStoryboard(storyboard: .main)
         let detailsViewController: DetailsViewController = mainStoryboard.instantiateViewController()
         return detailsViewController
+    }
+    
+    static func signUpViewController() -> SignUpViewController {
+        let mainStoryboard = UIStoryboard(storyboard: .authentication)
+        let signUpViewController: SignUpViewController = mainStoryboard.instantiateViewController()
+        return signUpViewController
+    }
+    
+    static func signInViewController() -> SignInViewController {
+        let mainStoryboard = UIStoryboard(storyboard: .authentication)
+        let signInViewController: SignInViewController = mainStoryboard.instantiateViewController()
+        return signInViewController
     }
     
    

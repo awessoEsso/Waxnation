@@ -10,7 +10,7 @@ import Foundation
 
 extension FirebaseManager {
     func items(with success: @escaping (([Item]) -> Void), failure: ((Error?) -> Void)?) {
-        itemsReference.observeSingleEvent(of: .value, with: { (snapshot) in
+        itemReference.observeSingleEvent(of: .value, with: { (snapshot) in
             guard let dictionary = snapshot.value as? [String: Any] else {
                 let anError = NSError(domain: "error occured: can't retreive resources", code: 30001, userInfo: nil)
                 failure?(anError)
@@ -28,7 +28,7 @@ extension FirebaseManager {
     }
     
     func item(with identifier: String, success: @escaping ((Item) -> Void), failure: ((Error?) -> Void)?) {
-        itemsReference.child(identifier).observeSingleEvent(of: .value) { (snapshot) in
+        itemReference.child(identifier).observeSingleEvent(of: .value) { (snapshot) in
             guard let dictionary = snapshot.value as? [String: Any] else {
                 let anError = NSError(domain: "error occured: can't retreive resources", code: 30001, userInfo: nil)
                 failure?(anError)

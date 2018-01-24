@@ -108,7 +108,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
         let alertController = UIAlertController(title: "Deep-link Data", message: message, preferredStyle: .alert)
         alertController.addAction(okAction)
-        self.window?.rootViewController?.present(alertController, animated: true, completion: nil)
+        //self.window?.rootViewController?.present(alertController, animated: true, completion: nil)
     }
 
 }

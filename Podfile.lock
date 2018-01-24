@@ -1,62 +1,90 @@
 PODS:
-  - Firebase (4.6.0):
-    - Firebase/Core (= 4.6.0)
-  - Firebase/Core (4.6.0):
-    - FirebaseAnalytics (= 4.0.5)
-    - FirebaseCore (= 4.0.11)
-  - Firebase/Database (4.6.0):
+  - Firebase (4.8.1):
+    - Firebase/Core (= 4.8.1)
+  - Firebase/Auth (4.8.1):
     - Firebase/Core
-    - FirebaseDatabase (= 4.1.1)
-  - Firebase/DynamicLinks (4.6.0):
+    - FirebaseAuth (= 4.4.2)
+  - Firebase/Core (4.8.1):
+    - FirebaseAnalytics (= 4.0.7)
+    - FirebaseCore (= 4.0.14)
+  - Firebase/Database (4.8.1):
     - Firebase/Core
-    - FirebaseDynamicLinks (= 2.2.0)
-  - FirebaseAnalytics (4.0.5):
+    - FirebaseDatabase (= 4.1.4)
+  - Firebase/DynamicLinks (4.8.1):
+    - Firebase/Core
+    - FirebaseDynamicLinks (= 2.3.2)
+  - Firebase/Storage (4.8.1):
+    - Firebase/Core
+    - FirebaseStorage (= 2.1.2)
+  - FirebaseAnalytics (4.0.7):
     - FirebaseCore (~> 4.0)
     - FirebaseInstanceID (~> 2.0)
     - GoogleToolboxForMac/NSData+zlib (~> 2.1)
     - nanopb (~> 0.3)
-  - FirebaseCore (4.0.11):
+  - FirebaseAuth (4.4.2):
+    - FirebaseAnalytics (~> 4.0)
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (4.0.14):
     - GoogleToolboxForMac/NSData+zlib (~> 2.1)
-  - FirebaseDatabase (4.1.1):
+  - FirebaseDatabase (4.1.4):
     - FirebaseAnalytics (~> 4.0)
     - FirebaseCore (~> 4.0)
     - leveldb-library (~> 1.18)
-  - FirebaseDynamicLinks (2.2.0):
+  - FirebaseDynamicLinks (2.3.2):
     - FirebaseAnalytics (~> 4.0)
-  - FirebaseInstanceID (2.0.6)
+  - FirebaseInstanceID (2.0.8):
+    - FirebaseCore (~> 4.0)
+  - FirebaseStorage (2.1.2):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
   - GoogleToolboxForMac/Defines (2.1.3)
   - GoogleToolboxForMac/NSData+zlib (2.1.3):
     - GoogleToolboxForMac/Defines (= 2.1.3)
+  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.3):
+    - GoogleToolboxForMac/DebugUtils (= 2.1.3)
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.3)
+  - GoogleToolboxForMac/NSString+URLArguments (2.1.3)
+  - GTMSessionFetcher/Core (1.1.12)
   - leveldb-library (1.20)
   - nanopb (0.3.8):
     - nanopb/decode (= 0.3.8)
     - nanopb/encode (= 0.3.8)
   - nanopb/decode (0.3.8)
   - nanopb/encode (0.3.8)
-  - Nuke (5.2)
-  - SwiftLint (0.24.0)
+  - Nuke (6.0)
+  - SwiftLint (0.24.2)
 
 DEPENDENCIES:
   - Firebase
+  - Firebase/Auth
   - Firebase/Core
   - Firebase/Database
   - Firebase/DynamicLinks
+  - Firebase/Storage
   - Nuke
   - SwiftLint
 
 SPEC CHECKSUMS:
-  Firebase: 27321a925aa85520618255a7c630859e0502ccbd
-  FirebaseAnalytics: 5b02a63ead2c3f0259cfc7f15e053e440587ecf8
-  FirebaseCore: 2a946ece8fbe3ce1fdeeb55324f273caade22df9
-  FirebaseDatabase: 2e6e8e110b93b9a6e7aac71774c769a363035cb1
-  FirebaseDynamicLinks: 188c8d7b31a12a25165dc574c5249df97d8ab442
-  FirebaseInstanceID: 24958382a1011bba5aaff37e334e7a650b9118f5
+  Firebase: 2721056b8885eef90233b03f37be64358d35d262
+  FirebaseAnalytics: 617afa8c26b57a0c3f11361b248bc9e17bfd8dfd
+  FirebaseAuth: bd2738c5c1e92b108ba5f7f7335908097a4e50bb
+  FirebaseCore: 2e0b98fb2d64ca8140136beff15772bdd14d2dd7
+  FirebaseDatabase: de4446507ccd3257fca37d16f40e1540324571fd
+  FirebaseDynamicLinks: 38b68641d24e78d0277a9205d988ce22875d5a25
+  FirebaseInstanceID: 81df5805a08001e69138664bdd02c6719a9ac80f
+  FirebaseStorage: 181bb543d39ee3c53e0558de7ba86b1286a0427f
   GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
-  leveldb-library: 4f9eedf84ab46b4fa3b7893bf30714b2a1a74022
+  GTMSessionFetcher: ebaa1f79a5366922c1735f1566901f50beba23b7
+  leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
-  Nuke: 5f420c4637415f979c83afb35e73176dd03232d9
-  SwiftLint: a014c92b4664e8b13f380f8640a51bb1733778ba
+  Nuke: d83812262734dad51e3c498cb1c4f7923f2b78c6
+  SwiftLint: 2aa21b96c8d13396a051bc1cb659d2ce1e0075b0
 
-PODFILE CHECKSUM: e3bf6e6fdefba8ca9086ac6e812ea30704acb398
+PODFILE CHECKSUM: da088094a30b9d623ec6f0648e0a833349af989b
 
 COCOAPODS: 1.3.1

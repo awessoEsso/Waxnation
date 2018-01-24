@@ -15,8 +15,14 @@ class FirebaseManager {
     static let shared = FirebaseManager()
     let datebaseReference: DatabaseReference
     // MARK: Database References
-    lazy var itemsReference: DatabaseReference = {
+    lazy var itemReference: DatabaseReference = {
         let itemsRef = self.datebaseReference.child("Item")
+        itemsRef.keepSynced(true)
+        return itemsRef
+    }()
+    
+    lazy var userReference: DatabaseReference = {
+        let itemsRef = self.datebaseReference.child("User")
         itemsRef.keepSynced(true)
         return itemsRef
     }()
